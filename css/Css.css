@@ -1,3 +1,121 @@
-h1{
-    color: red;
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+/*variaveis*/
+:root{
+    --Text-title-color: #EB5D34;
+    --body-bg-color: #161B22;
+    --body-border-color: #b9bcc2;
+    --text-main-color: #C4C9D4;
+    --back-bg-color:#EB5D34;
+    --color-icone: #fff;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+#icon{
+    display: flex;
+    text-align: center;
+    height: auto;
+    justify-content: center;
+    width: auto;
+    flex: 0 ;
+    padding: 10px;
+    background-color: var(--body-bg-color);
+    color: var(--color-icone);
+    border-bottom: 3px solid var(--body-border-color);
+
+}
+#icon i{
+    font-size: 60px;
+    
+    
+}
+#title-header{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+}
+#title-header h1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: var(--body-bg-color);
+    color: var(--color-icone);
+    border-bottom: 3px solid var(--body-border-color);
+}
+main{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #23272e;
+    
+}
+#container{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    padding-top: 50px;
+}
+.title-hub{
+    width: 100%;
+    font-size: 2em;
+    font-weight: bold;
+    color: var(--Text-title-color);
+    padding-bottom: 10px;
+    border-bottom: solid 3px var(--body-border-color);
+}
+.description{
+    font-size: 1.2em;
+    color: var(--text-main-color);
+}
+.highlight{
+    color: var(--Text-title-color);
+}
+.bord{
+    color: var(--Text-title-color);
+    border-left: solid 5px var(--Text-title-color);
+    padding-left: 15px;
+}
+#comands{
+    width: 100%;
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.comands2 ul{
+    padding-top: 20px;
+    list-style: none;
+}
+.comands2 ul li{
+    font-size: 1.2em;
+    color: var(--color-icone);
+    
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 1px
+}
+.title-hub2{
+    width: 100%;
+    font-size: 1.4em;
+    font-weight: 700;
+    color: var(--Text-title-color);
+    padding-bottom: 10px;
+ 
 }
