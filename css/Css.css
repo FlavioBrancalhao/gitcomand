@@ -97,6 +97,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     
+    
 }
 
 .comands2 ul{
@@ -118,4 +119,74 @@ main{
     color: var(--Text-title-color);
     padding-bottom: 10px;
  
+}
+.marge{
+    margin-top: 30px;
+}
+.limit{
+    width: 60%;
+}
+.banner{
+    width:20%;
+    height: 140vh;
+    max-height: 150vh;
+    position: absolute;
+    right: 0;
+    bottom: -1100px;
+    margin-right: 15%;
+    background-color: var(--body-bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 15px;
+    border:solid 3px var(--body-border-color);
+    
+    
+}
+
+
+.programs img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.programs i{
+    font-size: 60px;
+    padding-top: 20px;
+    color: var(--color-icone);
+}
+.programs a {
+    text-decoration: none;
+}
+.desc{
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+.borda{
+    border-top: solid 3px var(--body-border-color);
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.programs{
+    margin-top: 20px;
+}
+.devs{
+    font-size: 1.5em;
+    color: var(--color-icone);
+    
+}
+.name{
+    color: var(--text-main-color);
+}
+@media screen and (max-width: 700px){
+    .limit{
+        width: 100%;
+    }
+    .banner{
+        display: none;
+    }
 }

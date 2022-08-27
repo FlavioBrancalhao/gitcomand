@@ -26,12 +26,13 @@
         
         <section id="container">
             <div id="title">
-            <h1 class="title-hub">Comandos</h1>
+            <h1 class="title-hub">Criar repositório</h1>
             <p class="description">Comandos do <span class="highlight"> Git</span> para criar um repositório no <span class="highlight">GitHub</span> e utilizar em um editor de texto como <span class="highlight">Visual Studio</span>. </p>
         </div>
         <div id="comands">
-            <h2 class="title-hub2">Comandos repositório</h2>
+            <h2 class="title-hub2">Comandos </h2>
             <p class="description">Esses comandos são demonstrados apos criar um repositório no <span class="highlight">GitHub</span></p>
+            </div>
             <div class="comands2">
                 <ul>
                     <li><span class="highlight bord">git init </span>- (Serve para iniciar o git em seu editor)</li>
@@ -51,10 +52,140 @@
                     
 
                 </ul>
+
             </div>
+            <section id="divider">
+                
+            <div class="comands2 limit">
+            <h1 class="title-hub marge">Removendo link do repositório</h2>
+            
+            <ul>
+                <li><span class="highlight bord">git remote -v </span>- (Serve para verificar qual origin esta atrelado)</li>
+                
+                <li><span class="highlight bord">git remote rm origin </span>- (Serve para remover a origin do seu repositório)</li>
+
+
+            </ul>
+            <h1 class="title-hub marge">Clone do repositório</h2>
+                <div class="comands2">
+                <ul>
+                    <li><span class="highlight bord">git clone https://seu lik .  </span>- (Clona em sua pasta o repositorio main obs: não esquça do ponto ao final do link dando espaço ponto)</li>
+                    
+                </ul>   
+            </div>
+            <h1 class="title-hub marge">Criando Branch</h2>
+                <p class="description"><span class="highlight">Branchs</span> exemplificando de uma forma geek são as ramificações do multiverso do seu projeto.</p>
+                <div class="comands2">
+                <ul>
+                    <li><span class="highlight bord">git branch </span>- (Mostra a lista das branchs que tem em seu projeto)</li>
+                    
+                    <li><span class="highlight bord">git branch name </span>- (Cria branch dentro do projeto o name é o nome que você da a branch)</li>
+
+                    
+                </ul>   
+            </div>
+            <h1 class="title-hub marge">Deletando Branch</h2>
+                <div class="comands2">
+                <ul>
+                    <li><span class="highlight bord">git branch -d name </span>- (Deleta uma branch dentro do projeto o name é a branch a ser deletada)</li>
+                    
+                    <li><span class="highlight bord">git branch --delete name</span>- (Deleta uma branch dentro do projeto o name é a branch a ser deletada)</li>
+
+                    
+                </ul>   
+            </div>
+            <h1 class="title-hub marge">Trocando de Branch</h2>
+                <div class="comands2">
+                <ul>
+                    <li><span class="highlight bord">git checkout -b name </span>- (Cria e troca uma branch nova automático aonde ja pode codar na nova branch)</li>
+                    
+                    <li><span class="highlight bord">git checkout name</span>- (Troca de branchs apanas digite em name a branch que quer)</li>
+
+                    
+                </ul>   
+            </div>
+            <h1 class="title-hub marge">Enviando uma branch ao remote</h2>
+                <div class="comands2">
+                <ul>
+                    <li><span class="highlight bord">git push origin nome_da_branch </span>- (Envia uma branch ao remoto para ser verificada e baixada)</li>
+                    
+                    <li><span class="highlight bord">git fetch</span>- (Verifica quais branchs foram enviadas)</li>
+
+                    <li><span class="highlight bord">git checkout –track origin/name</span>- (Baixa branch do nome "name" do remoto para isso deve escrever origin/ e nome )</li>
+                </ul>  
+            
+            </div>
+
+            <h1 class="title-hub marge">Juntando branchs a main</h2>
+                <div class="comands2">
+                <ul>
+                    <li><span class="highlight bord">git merge name </span>- (Junta a branch que esta escrita a atual mesclando os códigos)</li>
+
+                </ul>  
+            
+            </div>
+        
+      <div class="banner">
+        <h2 class="devs">Desenvolvedores</h2>
+        <div class="programs">
+        <h3 class="name borda">Flavio Brancalhão</h3>
+        <img src="img/eu.jpg" alt="Flavio Brancalhão">
+        <div class="highlight desc">Programador front-end futuro full-stack</div>
+        <aside class="contato">
+           <a href=""> <i class="devicon-linkedin-plain colored"></i></a>
+            <a href=""><i class="devicon-github-original"></i></a>
+        </aside>
+    </div>
+    <div class="programs">
+        <h3 class="name borda">Fernanda Baccarine</h3>
+        <img src="img/fernanda.jpg" alt="Fernanda Baccarine">
+        <div class="highlight desc">Analista de QA </div>
+        <aside class="contato">
+            <a href=""><i class="devicon-linkedin-plain colored"></i></a>
+            <a href=""><i class="devicon-github-original"></i></a>
+
+        </aside>
+    </div>
+      </div>
+    </section>
+            <h1 class="title-hub marge">Tags</h2>
+                <p class="description"><span class="highlight">Tags</span> exemplificando de uma forma Gamer são os "saves" das branchs do seu projeto, entre outras palavras as versões.</p>
+                <div class="comands2">
+                <ul>
+                    <li><span class="highlight bord">git tag</span>- (Mostra lista de tags)</li>
+                    
+                    <li><span class="highlight bord">git tag -a v1.0 -m "primeira alteracao"</span>- (Cria uma tag com um titulo e uma descriçao com -m "descriçaõ")</li>
+                    
+                    <li><span class="highlight bord">git checkout v1.0</span>- (Realiza a troca entre as tags)</li>
+
+                </ul>  
+
+            
+            </div>
+
         </div>
+        <h1 class="title-hub marge">Os mais utilizados</h2>
+            <p class="description">Comandos de <span class="highlight">Dia a Dia</span> seram mais utilizados enquanto você desenvolve seu site ou sistema</p>
+            <div class="comands2">
+            <ul>
+                <li><span class="highlight bord">git add .</span>- (Adiciona todos os arquivos para ser commitado)</li>
+                
+                <li><span class="highlight bord">git commit -a -m "mensagem" </span>- (commita todos os arquivos com uma mensagem)</li>
+                
+                <li><span class="highlight bord">git push</span>- (Envia ao repositório)</li>
+
+                <li><span class="highlight bord">git pull</span>- (Baixa do repositório a sua pasta)</li>
+
+                <p class="description marge">Esses <span class="highlight">Comandos</span> é a ordem que deve fazer para enviar ao repositório até o <span class="highlight">push</span> ja o <span class="highlight">pull</span> envia</p>
+            </ul>  
+
+        
+        </div>
+    
+        
         </section>
         
+
     </main>
 </body>
 </html>
